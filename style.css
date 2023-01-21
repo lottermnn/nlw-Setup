@@ -5,9 +5,7 @@
 }
 
 body {
-  background-color: #09090a;
-  color: white;
-
+  background-color: rgba(45, 115, 136, 1.0);
   height: 100vh;
 }
 
