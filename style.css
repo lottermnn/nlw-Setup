@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #b0eff1c5;
+  background-color: #000000;
   height: 100vh;
 }
 
@@ -19,7 +19,7 @@ header {
 
   position: fixed;
   width: 100%;
-  background-color: #c7eef0c5;
+  background-color: #000000;
 }
 
 /*tag de paragrafo*/
@@ -28,12 +28,12 @@ p {
   align-items: center;
   justify-content: center;
 
-  box-shadow: inset;
+  box-shadow:inset;
 
   font-family: "Roboto Mono";
   font-size: 25px;
   width: 5%;
-  color: rgb(0, 0, 0);
+  color: white;
 }
 
 button {
@@ -41,7 +41,7 @@ button {
   border-radius: 8px;
   border: 2px solid rgb(168, 1, 1);
   background-color: transparent;
-  color: rgb(0, 0, 0);
+  color: white;
 
   display: flex;
   align-items: center;
@@ -110,15 +110,17 @@ input {
   width: 64px;
   height: 64px;
 
-  border: 2px solid #252525;
+  border: 2px solid #afafaf;
   border-radius: 17px;
 
-  background: #252525;
+  background: #afafaf;
+  color: white;
 }
 
 input:checked {
-  background: rgb(84, 69, 151);
-  border: 3px solid rgb(42, 34, 77);
+  background: #15a020;
+  border: 3px solid #228b4a;
+  color: white;
 }
 
 @media (max-width: 570px) {
