@@ -5,27 +5,7 @@
 }
 
 body {
-  background: hsla(227, 60%, 25%, 1);
-
-  background: linear-gradient(
-    135deg,
-    hsla(227, 60%, 25%, 1) 27%,
-    hsla(268, 100%, 49%, 1) 71%
-  );
-
-  background: -moz-linear-gradient(
-    135deg,
-    hsla(227, 60%, 25%, 1) 27%,
-    hsla(268, 100%, 49%, 1) 71%
-  );
-
-  background: -webkit-linear-gradient(
-    135deg,
-    hsla(227, 60%, 25%, 1) 27%,
-    hsla(268, 100%, 49%, 1) 71%
-  );
-
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#192964", endColorstr="#7500FA", GradientType=1 );
+  background-color: #09090a;
   height: 100vh;
 }
 
@@ -38,33 +18,13 @@ header {
 
   position: fixed;
   width: 100%;
-  background: hsla(227, 60%, 25%, 1);
-
-  background: linear-gradient(
-    135deg,
-    hsla(227, 60%, 25%, 1) 27%,
-    hsla(268, 100%, 49%, 1) 71%
-  );
-
-  background: -moz-linear-gradient(
-    135deg,
-    hsla(227, 60%, 25%, 1) 27%,
-    hsla(268, 100%, 49%, 1) 71%
-  );
-
-  background: -webkit-linear-gradient(
-    135deg,
-    hsla(227, 60%, 25%, 1) 27%,
-    hsla(268, 100%, 49%, 1) 71%
-  );
-
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#192964", endColorstr="#7500FA", GradientType=1 );
+  background-color: #09090a;
 }
 
 button {
   padding: 16px 24px;
   border-radius: 8px;
-  border: 1px solid #8b5cf6;
+  border: 1px solid rgb(168, 1, 1);
   background-color: transparent;
   color: white;
 
