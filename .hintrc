@@ -16,6 +16,16 @@
           "width: fit-content"
         ]
       }
-    ]
+    ],
+    "compat-api/html": [
+      "default",
+      {
+        "ignore": [
+          "dialog"
+        ]
+      }
+    ],
+    "css-prefix-order": "off",
+    "manifest-app-name": "off"
   }
 }
