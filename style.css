@@ -7,6 +7,7 @@
 body {
   background-color: #09090a;
   color: white;
+
   height: 100vh;
 }
 
@@ -37,18 +38,6 @@ button {
   font-weight: 600;
   font-size: 16px;
   line-height: 125%;
-}
-
-input {
-  appearance: none;
-  -webkit-appearance: none;
-  width: 64px;
-  height: 64px;
-
-  border: 2px solid #27272a;
-  border-radius: 8px;
-
-  background: #18181b;
 }
 
 #form-habits {
@@ -101,13 +90,25 @@ input {
   text-align: center;
 }
 
-/*pseudo-selector*/
+input {
+  appearance: none;
+  -webkit-appearance: none;
+
+  width: 64px;
+  height: 64px;
+
+  border: 2px solid #27272a;
+  border-radius: 8px;
+
+  background: #18181b;
+}
+
 input:checked {
   background: #8b5cf6;
   border: 2px solid #a78bfa;
 }
 
-@media (max-whidth: 570px) {
+@media (max-width: 570px) {
   button div {
     display: none;
   }
