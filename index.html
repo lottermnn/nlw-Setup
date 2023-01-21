@@ -1,84 +1,49 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <script
-      src="https://kit.fontawesome.com/15a9823835.js"
-      crossorigin="anonymous"
-    ></script>
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@600;800&family=Roboto+Mono:wght@700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Roboto+Mono:wght@700&display=swap"
       rel="stylesheet"
     />
 
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="assets/favicon/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./assets/favicon/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="./assets/favicon/favicon-32x32.png"
-    />
-    <link rel="manifest" href="./assets/favicon/site.webmanifest" />
-
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <title>Habits</title>
 
-    <title>Habit Tracker</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
-  <body class="">
+  <body>
     <header>
-      <img class="logo-habits" src="./assets/habits.svg" alt="" />
-      <button class="add-habit">
-        <i class="fa-solid fa-plus"></i>
-        <div>Registrar meu dia</div>
+      <img src="./assets/logo.svg" alt="Logomarca do aplicativo Habits" />
+
+      <p>Hábitos</p>
+
+      <button>
+        <img src="./assets/plus.svg" alt="Iconi" />
+        <div>Registar meu dia</div>
       </button>
     </header>
-    <nav>
-      <!-- Adicionar conteúdo para a navegação -->
-    </nav>
-    <main>
-      <div class="container">
-        <form action="">
-          <div class="habits">
-            <div class="habit" data-name="run">🏃🏻‍♂️</div>
-            <div class="habit" data-name="water">💧</div>
-            <div class="habit" data-name="training">💪🏻</div>
-            <div class="habit" data-name="to-sleep">💤</div>
-            <div class="habit" data-name="dog">🦮</div>
-            <div class="habit" data-name="food">🥗</div>
-          </div>
-          <div class="days"></div>
-        </form>
 
-        <dialog>
-          <div class="modal">
-            <p>Olá 👋</p>
-            <h2>Eduardo</h2>
-            <p id="dayof"></p>
-            <h3 id="demo"></h3>
-            <button id="confirm-habit"></button>
-          </div>
-        </dialog>
+    <form id="form-habits">
+      <div class="habits">
+        <div class="habit" data-name="sport">🏃‍♂️</div>
+        <div class="habit" data-name="water">💧</div>
+        <div class="habit" data-name="food">🥗</div>
+        <div class="habit" data-name="book">📚</div>
+        <div class="habit" data-name="pc">🖥️</div>
+        <div class="habit" data-name="relax">🕧</div>
+        <div class="habit" data-name="sleep">💤</div>
+        <div class="habit" data-name="dog">🐕‍🦺</div>
       </div>
-    </main>
-    <footer>
-      <!-- Adicionar conteúdo para o footer -->
-    </footer>
 
+      <div class="days">
+        <div class="day"></div>
+      </div>
+    </form>
     <script src="https://cdn.jsdelivr.net/gh/maykbrito/libs/NLWSetup/source/NLWSetup.js"></script>
-    <script src="./js/script.js"></script>
+    <script src="./script.js"></script>
   </body>
 </html>

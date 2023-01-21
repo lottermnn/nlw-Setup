@@ -2,84 +2,87 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Inter", sans-serif;
-  font-family: "Roboto Mono", monospace;
-}
-
-:root {
-  --background: #09090a;
-  --background-color: #8b5cf6;
-  --text-color: #ffffff;
-  --border: #8b5cf6;
-  --set-color: #16a34a;
-  --highlight-color-hover: rgba(255, 255, 255, 0.2);
 }
 
 body {
-  /* display: grid; */
-  /* place-items: center; */
+  background-color: #b0eff1c5;
   height: 100vh;
-  background: var(--background);
-  color: var(--text-color);
 }
 
+/*cabeça do cod*/
 header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
   padding: 48px;
+
   position: fixed;
   width: 100%;
-  background: var(--background);
+  background-color: #c7eef0c5;
 }
 
-.add-habit {
+/*tag de paragrafo*/
+p {
   display: flex;
   align-items: center;
-  background-color: transparent;
-  color: var(--text-color);
-  border: 1px solid var(--border);
-  border-radius: 8px;
+  justify-content: center;
+
+  box-shadow: inset;
+
+  font-family: "Roboto Mono";
+  font-size: 25px;
+  width: 5%;
+  color: rgb(0, 0, 0);
+}
+
+button {
   padding: 16px 24px;
+  border-radius: 8px;
+  border: 2px solid rgb(168, 1, 1);
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+
+  display: flex;
+  align-items: center;
   gap: 12px;
+
   font-family: "Inter";
-  font-style: normal;
   font-weight: 600;
   font-size: 16px;
-  cursor: pointer;
   line-height: 125%;
-  transition: 0.25s ease-in-out;
 }
 
-.add-habit:hover {
-  background-color: var(--background-color);
-}
-
-form {
+#form-habits {
   display: flex;
+
   padding: 182px 48px 48px;
   width: fit-content;
 }
 
 .habits {
+  margin-top: 60px;
   display: flex;
   flex-direction: column;
+
   gap: 24px;
-  margin-top: 60px;
 }
+
 .habit {
-  display: flex;
-  width: 40px;
+  width: 64px;
   height: 64px;
+
   font-size: 32px;
+
+  display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .days {
   display: flex;
-  margin-left: 32px;
   gap: 48px;
+  margin-left: 32px;
 }
 
 .day {
@@ -90,110 +93,36 @@ form {
 
 .day div {
   margin-bottom: 8px;
+
   font-family: "Roboto Mono";
-  font-weight: 700;
   font-size: 20px;
   line-height: 125%;
-  align-items: center;
-  color: #a1a1aa;
+
+  color: #000000;
+
+  text-align: center;
 }
 
 input {
-  appearance: none;
   -webkit-appearance: none;
+  appearance: none;
 
   width: 64px;
   height: 64px;
-  background: #18181b;
-  border: 2px solid #27272a;
-  border-radius: 8px;
+
+  border: 2px solid #252525;
+  border-radius: 17px;
+
+  background: #252525;
 }
 
 input:checked {
-  background: var(--background-color);
-  border: 2px solid #a78bfa;
+  background: rgb(84, 69, 151);
+  border: 3px solid rgb(42, 34, 77);
 }
 
 @media (max-width: 570px) {
-  .add-habit {
-    width: 52px;
-    height: 52px;
-    align-items: center;
-    justify-content: center;
-  }
-  .add-habit div {
+  button div {
     display: none;
-    transition: display 2s;
   }
-}
-
-dialog {
-  padding: 24px;
-  width: 419px;
-  margin: 182px auto;
-  border: 0;
-  background: #18181b;
-  color: var(--text-color);
-  box-shadow: 4px 16px 24px rgba(0, 0, 0, 0.171);
-  border-radius: 16px;
-}
-
-.modal {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
-dialog p {
-  width: 340px;
-
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 100%;
-  color: #a1a1aa;
-}
-
-dialog h2 {
-  width: 340px;
-  margin-top: 8px;
-  margin-bottom: 24px;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 800;
-  font-size: 48px;
-  line-height: 125%;
-}
-
-dialog h3 {
-  width: 340px;
-
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 800;
-  font-size: 48px;
-  line-height: 125%;
-  margin-bottom: 25px;
-}
-
-dialog #confirm-habit {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 16px;
-  gap: 12px;
-  color: var(--text-color);
-  width: 340px;
-  height: 52px;
-
-  background: #16a34a;
-  border-radius: 8px;
-  border: 0;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 125%;
-  cursor: pointer;
 }
