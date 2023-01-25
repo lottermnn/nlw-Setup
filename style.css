@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #000000;
+  background-color: #5a6cbf;
   height: 100vh;
 }
 
@@ -19,7 +19,7 @@ header {
 
   position: fixed;
   width: 100%;
-  background-color: #000000;
+  background-color: #5a6cbf;
 }
 
 /*tag de paragrafo*/
@@ -28,24 +28,26 @@ p {
   align-items: center;
   justify-content: center;
 
-  box-shadow:inset;
+  box-shadow: inset;
 
   font-family: "Roboto Mono";
   font-size: 25px;
   width: 5%;
-  color: white;
+  color: rgb(12, 10, 10);
 }
 
 button {
   padding: 16px 24px;
   border-radius: 8px;
-  border: 2px solid rgb(168, 1, 1);
+  border: 2px solid #91e218;
   background-color: transparent;
-  color: white;
+  color: #ffffff;
 
   display: flex;
   align-items: center;
   gap: 12px;
+
+  text-overflow: clip;
 
   font-family: "Inter";
   font-weight: 600;
@@ -98,7 +100,7 @@ button {
   font-size: 20px;
   line-height: 125%;
 
-  color: white;
+  color: #09090a;
 
   text-align: center;
 }
@@ -110,16 +112,16 @@ input {
   width: 64px;
   height: 64px;
 
-  border: 2px solid #afafaf;
+  border: 2px solid #293153;
   border-radius: 17px;
 
-  background: #afafaf;
+  background: #293153;
   color: white;
 }
 
 input:checked {
-  background: #15a020;
-  border: 3px solid #228b4a;
+  background: #70d463;
+  border: 3px solid #70da62c0;
   color: white;
 }
 
