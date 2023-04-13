@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #1C1D1Ef;
+  background-color: #6364d4;
   height: 100vh;
 }
 
@@ -19,7 +19,7 @@ header {
 
   position: fixed;
   width: 100%;
-  background-color: #1C1D1E;
+  background-color: #6364d4;
 }
 
 /*tag de paragrafo*/
@@ -39,7 +39,7 @@ p {
 button {
   padding: 16px 24px;
   border-radius: 8px;
-  border: 2px solid #91e218;
+  border: 2px solid #18d1e2;
   background-color: transparent;
   color: #ffffff;
 
