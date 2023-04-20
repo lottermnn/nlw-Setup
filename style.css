@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #6364d4;
+  background-color: #0c0c0cf5;
   height: 100vh;
 }
 
@@ -19,7 +19,7 @@ header {
 
   position: fixed;
   width: 100%;
-  background-color: #6364d4;
+  background-color: #151515;
 }
 
 /*tag de paragrafo*/
@@ -112,16 +112,16 @@ input {
   width: 64px;
   height: 64px;
 
-  border: 2px solid #293153;
+  border: 2px solid #76767673;
   border-radius: 17px;
 
-  background: #293153;
+  background: #bebebe8f;
   color: white;
 }
 
 input:checked {
-  background: #70d463;
-  border: 3px solid #70da62c0;
+  background: #18d1e2;
+  border: 3px solid #18d1e2;
   color: white;
 }
 
