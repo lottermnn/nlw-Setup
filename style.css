@@ -112,16 +112,16 @@ input {
   width: 64px;
   height: 64px;
 
-  border: 2px solid #76767673;
+  border: 2px solid #fa141450;
   border-radius: 17px;
 
-  background: #bebebe8f;
+  background: #fa1414da;
   color: white;
 }
 
 input:checked {
-  background: #18d1e2;
-  border: 3px solid #18d1e2;
+  background: #9df881;
+  border: 3px solid #9df881;
   color: white;
 }
 
